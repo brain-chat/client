@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const SITE_URL = process.env.NODE_ENV === 'production' ? "/Client" : "/";
+const { BASE_URL } = require("./base_url");
 
 const nextConfig = {
   reactStrictMode: true,
@@ -10,7 +10,7 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: SITE_URL
+  basePath: BASE_URL
 };
 
 module.exports = nextConfig;
