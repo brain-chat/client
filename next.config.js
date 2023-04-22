@@ -5,7 +5,7 @@ const SITE_URL = process.env.NODE_ENV === 'production' ? "/Client" : "/";
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
-  distDir: "dist",
+  distDir: "out",
   trailingSlash: true,
   images: {
     unoptimized: true
