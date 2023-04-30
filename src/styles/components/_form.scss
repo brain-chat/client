@@ -1,0 +1,19 @@
+$border-radius: 7px;
+
+.form {
+    padding: 20px;
+    padding-bottom: 5px;
+    border: 1px solid #eaeaea;
+    border-radius: $border-radius;
+}
+
+.formLabel {
+    font-size: 15px;
+}
+
+.formHeader {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: "Poppins-Medium", "Vazir";
+    font-weight: bold;
+}

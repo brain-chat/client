@@ -1,0 +1,32 @@
+$headerMargin: 80px;
+
+.logo {
+    position: relative;
+    display: inline-block;
+    top: 12px;
+    left: 20px;
+    width: 105px;
+    height: 55px;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: $headerMargin;
+    background-color: transparent;
+    backdrop-filter: saturate(180%) blur(5px);
+    box-shadow: inset 0 -1px 0 0 #eaeaea;
+    background: hsla(0, 0%, 100%, 0.8);
+}
+
+.navbar {
+    position: relative;
+    top: 27px;
+    right: 25px;
+    float: right;
+}
+
+.content {
+    margin-top: $headerMargin;
+}
